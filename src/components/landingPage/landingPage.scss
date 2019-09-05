@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.landingPage {
+  display: flex;
+
+  .background {
+    background-image: url("../../images/profilePic.jpg");
+    background-size: cover;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      width: 39em;
+
+      h1 {
+        font-family: "Mukta", sans-serif;
+        color: aliceblue;
+        font-size: 5em;
+        text-shadow: 12px 13px black;
+      }
+
+      h2 {
+        font-family: "Mukta", sans-serif;
+        color: aliceblue;
+        font-size: 3em;
+        text-shadow: 12px 13px black;
+      }
+    }
+
+    .buttons {
+      position: relative;
+      top: 17em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: -webkit-fill-available;
+      height: 6em;
+
+      button {
+        width: 20em;
+        background-color: orchid;
+        border-radius: 50%;
+        font-family: "Mukta", sans-serif;
+        font-size: 20px;
+        color: aliceblue;
+      }
+    }
+  }
+}
