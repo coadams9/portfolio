@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: -webkit-fill-available;
+    height: 3em;
+    background-color: mediumblue;;
+
+
+    #firstbtn{
+        margin-left: 5px
+    }
+
+    button{
+        height: -webkit-fill-available;
+        color: aliceblue;
+        background-color: black;
+        font-family: "Mukta", sans-serif;
+        padding: 12px;
+    }
+}

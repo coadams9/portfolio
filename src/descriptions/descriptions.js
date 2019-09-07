@@ -1,0 +1,1 @@
+export const tad = "Built with a Ruby on Rails backend that connects to a React and Redux frontend, and also has a Secured Login. The idea of this app was to have the freedom to go from place to place all in one Application. You pick a place, a flight a hotel, and then you're off!! Try it out!"

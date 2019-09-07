@@ -4,11 +4,13 @@ import LandingPage from "./components/landingPage/LandingPage";
 import Resume from "./components/resume/Resume";
 import Blogs from "./components/blogs/Blogs";
 import Projects from "./components/projects/Projects";
+import NavBar from './components/navbar/NavBar'
 import "semantic-ui-css/semantic.min.css";
 
 function App() {
   return (
     <div>
+      <NavBar />
       <Switch>
         <Route path="/resume" component={Resume} />
         <Route path="/blogs" component={Blogs} />
