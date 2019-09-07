@@ -26,7 +26,7 @@ function LandingPage(props) {
         <div className="buttons">
           <button name="resume" onClick={handleClick}>RESUME</button>
           <button name="projects" onClick={handleClick}>PROJECTS</button>
-          <button name="blogs" onClick={handleClick}>BLOGS</button>
+          <button onClick={() => window.location = 'https://medium.com/@coadams9'}>BLOGS</button>
         </div>
       </div>
     </div >

@@ -93,6 +93,13 @@ body {
         font-family: "Mukta", sans-serif;
         font-size: 20px;
         color: aliceblue;
+        transition: all 900ms ease;
+      }
+
+      button:hover{
+        border-radius: 40%;
+        font-size: 25px;
+        cursor: pointer;
       }
     }
   }
