@@ -10,16 +10,16 @@ function Projects() {
     return (
         <div className='projects-container'>
             <div className='project'>
-                <a href='https://travelapp-api99.herokuapp.com/'><div className='pic'>
+                <a href='https://travelapp-api99.herokuapp.com/' target='_blank'><div className='pic'>
                     <span className='text'>See App In Action</span>
                 </div></a>
                 <div className='description'>
                     {tad}
-                    <a href='https://youtu.be/V4XQn1TsRPQ'>Video Walkthrough</a>
+                    <a href='https://youtu.be/V4XQn1TsRPQ' target='_blank'>Video Walkthrough</a>
                 </div>
             </div>
             <div className='project'>
-                <a href='https://pickup-dimes.herokuapp.com/'><div className='pic2'>
+                <a href='https://pickup-dimes.herokuapp.com/' target='_blank'><div className='pic2'>
                     <span className='text'>See App In Action</span>
                 </div></a>
                 <div className='description'>
