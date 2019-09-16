@@ -1,0 +1,176 @@
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects-container .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 19em;
+  width: -webkit-fill-available;
+  border-style: solid;
+  margin-top: 3em;
+}
+
+.projects-container .project .pic {
+  background-image: url("../../images/travPic.png");
+  height: -webkit-fill-available;
+  width: 30em;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 900ms ease;
+  transition: all 900ms ease;
+}
+
+.projects-container .project .pic .text {
+  visibility: hidden;
+  font-family: "Mukta", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: aliceblue;
+}
+
+.projects-container .project .pic:hover {
+  width: 25em;
+  text-shadow: 12px 13px black;
+  border-radius: 50%;
+}
+
+.projects-container .project .pic:hover .text {
+  visibility: visible;
+}
+
+.projects-container .project .pic2 {
+  background-image: url("../../images/pickupPic.png");
+  height: -webkit-fill-available;
+  width: 30em;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 900ms ease;
+  transition: all 900ms ease;
+}
+
+.projects-container .project .pic2 .text {
+  visibility: hidden;
+  font-family: "Mukta", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: aliceblue;
+}
+
+.projects-container .project .pic2:hover {
+  width: 25em;
+  text-shadow: 12px 13px black;
+  border-radius: 50%;
+}
+
+.projects-container .project .pic2:hover .text {
+  visibility: visible;
+}
+
+.projects-container .project .pic3 {
+  background-image: url("../../images/profilePic.jpg");
+  height: -webkit-fill-available;
+  width: 30em;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 900ms ease;
+  transition: all 900ms ease;
+}
+
+.projects-container .project .pic3 .text {
+  visibility: hidden;
+  font-family: "Mukta", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.projects-container .project .pic3:hover {
+  width: 25em;
+  text-shadow: 12px 13px black;
+  border-radius: 50%;
+}
+
+.projects-container .project .pic3:hover .text {
+  visibility: visible;
+}
+
+.projects-container .project .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fill-available;
+  width: 30em;
+  text-align: center;
+  font-size: large;
+  font-family: "Mukta", sans-serif;
+}
+
+.projects-container .project .description a {
+  position: relative;
+  top: 2em;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=projects.css.map */

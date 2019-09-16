@@ -1,0 +1,34 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  width: -webkit-fill-available;
+  height: 3em;
+  background-color: mediumblue;
+  z-index: 1;
+}
+
+.nav #firstbtn {
+  margin-left: 5px;
+}
+
+.nav button {
+  height: -webkit-fill-available;
+  color: aliceblue;
+  background-color: black;
+  font-family: "Mukta", sans-serif;
+  width: 7em;
+}
+/*# sourceMappingURL=navBar.css.map */
