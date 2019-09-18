@@ -6,6 +6,7 @@ body {
   background-image: url("../../images/profilePic.jpg");
   background-size: cover;
   width: -webkit-fill-available;
+  height: -webkit-fill-available;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,7 +21,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  height: -webkit-fill-available;
 }
 
 .background .middle-container {
