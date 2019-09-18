@@ -1,5 +1,5 @@
 import React from "react";
-import "./landingPage.scss";
+import "./landingPage.css";
 import { withRouter } from "react-router-dom";
 import cory from '../../images/cory.jpg'
 

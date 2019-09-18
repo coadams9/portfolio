@@ -1,5 +1,5 @@
 import React from 'react'
-import './navBar.scss'
+import './navBar.css'
 import { withRouter } from 'react-router-dom'
 
 function NavBar(props) {

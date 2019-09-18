@@ -1,5 +1,5 @@
 import React from 'react'
-import './resume.scss'
+import './resume.css'
 
 
 
