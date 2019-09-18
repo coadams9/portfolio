@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: -webkit-fill-available;
+    width: 100vw;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: -webkit-fill-available;
+    width: 100vw;
     height: 6em;
 
     button {

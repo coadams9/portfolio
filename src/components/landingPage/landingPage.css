@@ -34,7 +34,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: -webkit-fill-available;
+  width: 100vw;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -126,7 +126,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: -webkit-fill-available;
+  width: 100vw;
   height: 6em;
 }
 

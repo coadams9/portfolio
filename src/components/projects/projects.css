@@ -22,14 +22,14 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 19em;
-  width: -webkit-fill-available;
+  width: 100vw;
   border-style: solid;
   margin-top: 3em;
 }
 
 .projects-container .project .pic {
   background-image: url("../../images/travPic.png");
-  height: -webkit-fill-available;
+  height: 100vh;
   height: 100%;
   width: 30em;
   background-size: contain;
@@ -70,7 +70,7 @@
 
 .projects-container .project .pic2 {
   background-image: url("../../images/pickupPic.png");
-  height: -webkit-fill-available;
+  height: 100vh;
   height: 100%;
   width: 30em;
   background-size: contain;
@@ -111,7 +111,7 @@
 
 .projects-container .project .pic3 {
   background-image: url("../../images/profilePic.jpg");
-  height: -webkit-fill-available;
+  height: 100vh;
   height: 100%;
   width: 30em;
   background-size: contain;
@@ -164,7 +164,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: -webkit-fill-available;
+  height: 100vh;
   width: 30em;
   text-align: center;
   font-size: large;

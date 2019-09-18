@@ -14,7 +14,7 @@
           align-items: center;
   position: absolute;
   top: 0;
-  width: -webkit-fill-available;
+  width: 100vw;
   height: 3em;
   background-color: mediumblue;
   z-index: 1;
@@ -25,7 +25,7 @@
 }
 
 .nav button {
-  height: -webkit-fill-available;
+  height: 100vh;
   color: aliceblue;
   background-color: black;
   font-family: "Mukta", sans-serif;
