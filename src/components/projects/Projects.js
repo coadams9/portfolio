@@ -1,5 +1,5 @@
 import React from 'react'
-import './projects.scss'
+import './projects.css'
 import { tad } from '../../descriptions/descriptions'
 import { pgd } from '../../descriptions/descriptions'
 import { pad } from '../../descriptions/descriptions'
