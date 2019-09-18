@@ -13,7 +13,7 @@ body {
 .landingPage .background {
   background-image: url("../../images/profilePic.jpg");
   background-size: cover;
-  height: -webkit-fill-available;
+  height: -webkit-fill-available auto;
   width: -webkit-fill-available;
   display: -webkit-box;
   display: -ms-flexbox;
