@@ -9,8 +9,10 @@ body {
   height: -webkit-fill-available;
   height: -moz-available;
   height: fill-available;
+  height: -ms-available;
   width: -moz-available;
   width: fill-available;
+  width: -ms-available;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
