@@ -15,6 +15,7 @@
         .pic{
             background-image: url('../../images/travPic.png');
             height: -webkit-fill-available;
+            height: 100%;
             width: 30em;
             background-size: contain;
             display: flex;
@@ -46,6 +47,7 @@
         .pic2{
             background-image: url('../../images/pickupPic.png');
             height: -webkit-fill-available;
+            height: 100%;
             width: 30em;
             background-size: contain;
             display: flex;
@@ -77,6 +79,7 @@
         .pic3{
             background-image: url('../../images/profilePic.jpg');
             height: -webkit-fill-available;
+            height: 100%;
             width: 30em;
             background-size: contain;
             display: flex;
