@@ -8,12 +8,15 @@ body {
   background-image: url("../../images/profilePic.jpg");
   background-size: cover;
   width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  height: fill-available;
+  width: fill-available;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  height: -webkit-fill-available;
+  
 
   .middle-container{
     display: flex;
