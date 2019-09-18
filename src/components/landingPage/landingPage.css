@@ -20,6 +20,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  height: -webkit-fill-available;
 }
 
 .background .middle-container {
