@@ -4,6 +4,8 @@ body {
 
 .landingPage {
   display: flex;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
 
   .background {
     background-image: url("../../images/profilePic.jpg");
