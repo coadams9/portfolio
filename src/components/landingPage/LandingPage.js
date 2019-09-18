@@ -14,22 +14,20 @@ function LandingPage(props) {
   };
 
   return (
-    <div className="landingPage">
-      <div className="background">
-        <div className='middle-container'>
-          <img className='profilePic' src={cory} />
-          <div className='name-container'>
-            <div className="name"><h1>CORY ADAMS</h1><h2>WEB DEVELOPER</h2> </div>
-            <div className='text'>{text}</div>
-          </div>
-        </div>
-        <div className="buttons">
-          <button name="resume" onClick={handleClick}>RESUME</button>
-          <button name="projects" onClick={handleClick}>PROJECTS</button>
-          <button onClick={() => window.location = 'https://medium.com/@coadams9'}>BLOGS</button>
+    <div className="background">
+      <div className='middle-container'>
+        <img className='profilePic' src={cory} />
+        <div className='name-container'>
+          <div className="name"><h1>CORY ADAMS</h1><h2>WEB DEVELOPER</h2> </div>
+          <div className='text'>{text}</div>
         </div>
       </div>
-    </div >
+      <div className="buttons">
+        <button name="resume" onClick={handleClick}>RESUME</button>
+        <button name="projects" onClick={handleClick}>PROJECTS</button>
+        <button onClick={() => window.location = 'https://medium.com/@coadams9'}>BLOGS</button>
+      </div>
+    </div>
   );
 }
 

@@ -2,15 +2,7 @@ body {
   margin: 0;
 }
 
-.landingPage {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: -webkit-fill-available;
-  width: -webkit-fill-available;
-}
-
-.landingPage .background {
+.background {
   background-image: url("../../images/profilePic.jpg");
   background-size: cover;
   width: -webkit-fill-available;
@@ -30,7 +22,7 @@ body {
   position: relative;
 }
 
-.landingPage .background .middle-container {
+.background .middle-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,14 +38,14 @@ body {
   margin-right: 10px;
 }
 
-.landingPage .background .profilePic {
+.background .profilePic {
   background-image: url("../../images/cory.jpg");
   height: 24em;
   width: 33em;
   background-size: cover;
 }
 
-.landingPage .background .name-container {
+.background .name-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +58,7 @@ body {
           align-items: center;
 }
 
-.landingPage .background .name-container .name {
+.background .name-container .name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,21 +75,21 @@ body {
   width: 39em;
 }
 
-.landingPage .background .name-container .name h1 {
+.background .name-container .name h1 {
   font-family: "Mukta", sans-serif;
   color: aliceblue;
   font-size: 5em;
   text-shadow: 12px 13px black;
 }
 
-.landingPage .background .name-container .name h2 {
+.background .name-container .name h2 {
   font-family: "Mukta", sans-serif;
   color: aliceblue;
   font-size: 3em;
   text-shadow: 12px 13px black;
 }
 
-.landingPage .background .name-container .text {
+.background .name-container .text {
   font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +112,7 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
-.landingPage .background .buttons {
+.background .buttons {
   position: absolute;
   bottom: 0;
   display: -webkit-box;
@@ -137,7 +129,7 @@ body {
   height: 6em;
 }
 
-.landingPage .background .buttons button {
+.background .buttons button {
   width: 20em;
   background-color: mediumblue;
   border-radius: 50%;
@@ -148,7 +140,7 @@ body {
   transition: all 900ms ease;
 }
 
-.landingPage .background .buttons button:hover {
+.background .buttons button:hover {
   border-radius: 40%;
   font-size: 25px;
   cursor: pointer;

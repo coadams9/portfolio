@@ -2,107 +2,104 @@ body {
   margin: 0;
 }
 
-.landingPage {
-  display: flex;
-  height: -webkit-fill-available;
-  width: -webkit-fill-available;
 
-  .background {
-    background-image: url("../../images/profilePic.jpg");
-    background-size: cover;
+
+.background {
+  background-image: url("../../images/profilePic.jpg");
+  background-size: cover;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .middle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: -webkit-fill-available;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .profilePic{
+    background-image: url('../../images/cory.jpg');
+    height: 24em;
+    width: 33em;
+    background-size: cover;
+  }
+
+  .name-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: relative;
 
-    .middle-container{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: -webkit-fill-available;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
 
-    .profilePic{
-      background-image: url('../../images/cory.jpg');
-      height: 24em;
-      width: 33em;
-      background-size: cover;
-    }
-
-    .name-container{
+    .name {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
+      width: 39em;
 
-
-      .name {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 39em;
-  
-        h1 {
-          font-family: "Mukta", sans-serif;
-          color: aliceblue;
-          font-size: 5em;
-          text-shadow: 12px 13px black;
-        }
-  
-        h2 {
-          font-family: "Mukta", sans-serif;
-          color: aliceblue;
-          font-size: 3em;
-          text-shadow: 12px 13px black;
-        }
-      }
-  
-      
-  
-      .text{
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        width: 23em;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        color: aliceblue;
-        background-color: #0000cdb5;
-        padding: 20px;
+      h1 {
         font-family: "Mukta", sans-serif;
+        color: aliceblue;
+        font-size: 5em;
+        text-shadow: 12px 13px black;
       }
 
+      h2 {
+        font-family: "Mukta", sans-serif;
+        color: aliceblue;
+        font-size: 3em;
+        text-shadow: 12px 13px black;
+      }
     }
 
-    .buttons {
-      position: absolute;
-      bottom: 0;
+    
+
+    .text{
+      font-size: 20px;
       display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: -webkit-fill-available;
-      height: 6em;
+      align-items: center;
+      width: 23em;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: aliceblue;
+      background-color: #0000cdb5;
+      padding: 20px;
+      font-family: "Mukta", sans-serif;
+    }
 
-      button {
-        width: 20em;
-        background-color: mediumblue;;
-        border-radius: 50%;
-        font-family: "Mukta", sans-serif;
-        font-size: 20px;
-        color: aliceblue;
-        transition: all 900ms ease;
-      }
+  }
 
-      button:hover{
-        border-radius: 40%;
-        font-size: 25px;
-        cursor: pointer;
-      }
+  .buttons {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: -webkit-fill-available;
+    height: 6em;
+
+    button {
+      width: 20em;
+      background-color: mediumblue;;
+      border-radius: 50%;
+      font-family: "Mukta", sans-serif;
+      font-size: 20px;
+      color: aliceblue;
+      transition: all 900ms ease;
+    }
+
+    button:hover{
+      border-radius: 40%;
+      font-size: 25px;
+      cursor: pointer;
     }
   }
 }
+
