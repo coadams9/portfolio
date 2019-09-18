@@ -10,7 +10,7 @@ body {
   .background {
     background-image: url("../../images/profilePic.jpg");
     background-size: cover;
-    height: -webkit-fill-available auto;
+    height: -webkit-fill-available;
     width: -webkit-fill-available;
     display: flex;
     flex-direction: column;
