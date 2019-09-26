@@ -9,6 +9,7 @@ import { pad } from '../../descriptions/descriptions'
 function Projects() {
     return (
         <div className='projects-container'>
+            <h3>All Sites have a username: 'Test' and a password: '1234' for your convenience. :)</h3>
             <div className='project'>
                 <a href='https://travelapp-api99.herokuapp.com/' target='_blank'><div className='pic'>
                     <span className='text'>See App In Action</span>

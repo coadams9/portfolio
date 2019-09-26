@@ -11,6 +11,11 @@
           align-items: center;
 }
 
+.projects-container h3 {
+  position: relative;
+  top: 51px;
+}
+
 .projects-container .project {
   display: -webkit-box;
   display: -ms-flexbox;
