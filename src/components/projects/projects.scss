@@ -49,6 +49,38 @@
             }
         }
 
+        .pic1{
+            background-image: url('../../images/cbayPic.png');
+            height: -webkit-fill-available;
+            height: 100%;
+            width: 30em;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 900ms ease;
+
+            .text{
+                visibility: hidden;
+                font-family: "Mukta", sans-serif;
+                font-size: 2em;
+                text-align: center;
+                color: aliceblue
+            }
+        }
+
+        .pic1:hover{
+            width: 25em;
+            text-shadow: 12px 13px black;
+            border-radius: 50%;
+
+
+            .text{
+                visibility: visible
+            }
+        }
+
         .pic2{
             background-image: url('../../images/pickupPic.png');
             height: -webkit-fill-available;

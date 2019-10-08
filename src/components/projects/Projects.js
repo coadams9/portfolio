@@ -3,6 +3,7 @@ import './projects.css'
 import { tad } from '../../descriptions/descriptions'
 import { pgd } from '../../descriptions/descriptions'
 import { pad } from '../../descriptions/descriptions'
+import { cad } from '../../descriptions/descriptions'
 
 
 
@@ -19,6 +20,16 @@ function Projects() {
                     <a href='https://youtu.be/V4XQn1TsRPQ' target='_blank'>Video Walkthrough</a>
                 </div>
             </div>
+
+            <div className='project'>
+                <a href='https://cbayfrontend.herokuapp.com/' target='_blank'><div className='pic1'>
+                    <span className='text'>See App In Action</span>
+                </div></a>
+                <div className='description'>
+                    {cad}
+                </div>
+            </div>
+
             <div className='project'>
                 <a href='https://pickup-dimes.herokuapp.com/' target='_blank'><div className='pic2'>
                     <span className='text'>See App In Action</span>
