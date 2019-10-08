@@ -22,7 +22,7 @@ function Projects() {
             </div>
 
             <div className='project'>
-                <a href='https://cbayfrontend.herokuapp.com/' target='_blank'><div className='pic1'>
+                <a href='https://cbayfrontend.herokuapp.com' target='_blank'><div className='pic1'>
                     <span className='text'>See App In Action</span>
                 </div></a>
                 <div className='description'>
