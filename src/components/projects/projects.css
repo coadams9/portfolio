@@ -73,6 +73,47 @@
   visibility: visible;
 }
 
+.projects-container .project .pic1 {
+  background-image: url("../../images/carpic.jpg");
+  height: -webkit-fill-available;
+  height: 100%;
+  width: 30em;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 900ms ease;
+  transition: all 900ms ease;
+}
+
+.projects-container .project .pic1 .text {
+  visibility: hidden;
+  font-family: "Mukta", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: aliceblue;
+}
+
+.projects-container .project .pic1:hover {
+  width: 25em;
+  text-shadow: 12px 13px black;
+  border-radius: 50%;
+}
+
+.projects-container .project .pic1:hover .text {
+  visibility: visible;
+}
+
 .projects-container .project .pic2 {
   background-image: url("../../images/pickupPic.png");
   height: -webkit-fill-available;
